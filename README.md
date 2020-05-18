@@ -440,7 +440,10 @@ single-cell recognition of cell types by correlating (Spearman) scRNA-seq expres
 
 - `VISION` - functional annotation of scRNA-seq data using gene signatures (Geary's C statistics), unsupervised and supervised. Operates downstream of dimensionality reduction, clustering. A continuation of FastProject. https://github.com/YosefLab/VISION
     - DeTomaso, David, Matthew Jones, Meena Subramaniam, Tal Ashuach, Chun J Ye, and Nir Yosef. “Functional Interpretation of Single-Cell Similarity Maps,” August 29, 2018. https://doi.org/10.1101/403055.
-
+ 
+- `scCATCH` - takes a Seurat object directly and automatically assign cluster identity based on literature markers.
+    - DeTomaso, David, Matthew Jones, Meena Subramaniam, Tal Ashuach, Chun J Ye, and Nir Yosef. “Functional Interpretation of Single-Cell Similarity Maps,” August 29, 2018. https://doi.org/10.1101/403055.
+    
 ### Cell markers
 
 - clustermole: blindly digging for cell types in scRNA-seq clusters. Cell type prediction based on marker genes, cell type prediction based on a full expression matrix, a database of cell type markers. https://github.com/igordot/clustermole, https://cran.r-project.org/web/packages/clustermole/index.html
